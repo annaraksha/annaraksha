@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+    border-radius: 25px;
+    bottom:10px;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    
+    
+  }
+  
+  li {
+    float: left;
+    font-size: 120%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(143, 143, 143);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #00000049;
+    height: 5%;
+    border-radius: 50px;
+  }
+  
+  .active {
+      font-size: 120%;
+    
+    border-radius: 50px;
+    font-family:Tahoma, Verdana, sans-serif,fantasy;
+   
+  }
+
+
+
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+   
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 95%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 92%;
+    background: rgba(172, 172, 172, 0);
+
+width: 100%;
+    color: #000000;
+    padding: 0px;
+
+  }
+  .style1{
+    background-color:  rgba(0, 0, 0, 0.918);
+    border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+    color: azure;
+    width: 100%;
+    
+    border-radius:40px ;
+  }
+
+  
+#Address{
+  font-size: 15px;
+  color: rgb(0, 0, 0) ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.column {
+  float: left;
+  width: 33.3%;
+
+  padding: 100px;
+  background-color: transparent;
+}
+
